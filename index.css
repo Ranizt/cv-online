@@ -248,10 +248,12 @@ section .content {
 
 .design {
   background-color: #efe2f9;
+  color: #985bf7;
 }
 
 .dev {
   background-color: #e1e7fe;
+  color: #516cf7;
 }
 
 .skill-topic {
@@ -268,7 +270,6 @@ section .content {
 }
 
 .skill-detail {
-  color: #985bf7;
   font-size: 20px;
 }
 
@@ -287,4 +288,70 @@ section .content {
   background-color: #f7f9fc;
   justify-content: space-evenly;
   border-radius: 15px;
+}
+
+.project-container {
+  width: 40%;
+  padding: 30px;
+  background-color: #f7f9fc;
+}
+
+.project-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.project-name {
+  margin: 0 0 5px 20px;
+}
+
+.project-disc {
+  margin: 5px 0 0 20px;
+  color: #7d859d;
+}
+
+.project-link-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-link-container svg {
+  width: 20px;
+  height: 20px;
+  color: #5872f7;
+  padding: 10px;
+  background-color: #e1e7fe;
+  border-radius: 50%;
+}
+
+.project-link-container a {
+  color: #5872f7;
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.projects-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-container:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.project-container:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
