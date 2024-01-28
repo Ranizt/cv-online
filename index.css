@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+.resume-inf {
+  width: 25%;
+  padding: 10px 60px;
+}
+
+.resume-header img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 0 5px #333;
+}
+
+.resume-header h1 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.resume-header h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  background: linear-gradient(to right, #a77fe9, #1a25ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.resume-header p {
+  font-size: 20px;
+  color: #4d5670;
+}
+
+.split {
+  height: 1px;
+  background-color: #e7eaf1;
+  margin: 35px 0;
+}
+
+.contact .container svg {
+  width: 25px;
+  height: 25px;
+}
+.contact .container img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.contact .container .icon-bgr {
+  width: 40px;
+  background-color: #e2e6ee;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact div.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-container {
+  margin-left: 20px;
+}
+
+.contact-container .contact-type {
+  margin: 10px 0;
+  color: #a2a8b9;
+}
+
+.contact-container .contact-detail {
+  margin: 10px 0;
+  font-weight: bolder;
+  color: #4d5670;
+}
+
+.language .container img {
+  width: 42px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.language div.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.language-container {
+  margin-left: 20px;
+}
+
+.language-container .language-type {
+  margin: 10px 0;
+  font-weight: bolder;
+  color: #4d5670;
+}
+
+.language-container .language-detail {
+  margin: 10px 0;
+  color: #a2a8b9;
+}
+
+.section-label {
+  color: #a2a8b9;
+}
+
+.detail-inf {
+  border-left: 2px solid #e7eaf1;
+  margin: 80px 0;
+  flex: 1;
+}
+
+.section-container {
+  margin-bottom: 30px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 5px #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.circle-center {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #5531a7;
+}
+
+.detail-inf header {
+  font-size: 27px;
+  font-weight: bolder;
+  margin-left: 40px;
+}
+
+section .content {
+  padding: 0 80px;
+  margin-top: 30px;
+}
+
+.exp-detail {
+  background-color: #f7f9fc;
+  padding: 5px 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.present .exp-detail {
+  background-color: #f8f2fc;
+  padding: 10px 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.exp-detail img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.exp-detail .exp-role {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.exp-role-detail {
+  font-size: 20px;
+  color: #a2a8b9;
+  margin-bottom: 15px;
+}
+
+.exp-place {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #4d5670;
+  font-weight: bolder;
+}
+
+.exp-location {
+  color: #a2a8b9;
+  margin: 15px 0 0 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.exp-location svg {
+  width: 20px;
+  height: 20px;
+}
+
+.exp-time {
+  width: fit-content;
+  color: #747b90;
+  font-weight: bolder;
+}
+
+.present .exp-time {
+  width: fit-content;
+  color: #9251f7;
+  padding: 10px;
+  font-weight: bolder;
+  background-color: #efe2f9;
+  border-radius: 10px;
+}
+
+.time-loc-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.skill-icon-container {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.design {
+  background-color: #efe2f9;
+}
+
+.dev {
+  background-color: #e1e7fe;
+}
+
+.skill-topic {
+  flex: 0.1;
+}
+.skill-topic svg {
+  width: 20px;
+  height: 20px;
+}
+
+.skill-topic p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.skill-detail {
+  color: #985bf7;
+  font-size: 20px;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-detail-container {
+  flex: 0.85;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f7f9fc;
+  justify-content: space-evenly;
+  border-radius: 15px;
+}
